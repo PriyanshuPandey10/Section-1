@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
     <style>
+        *{
+            font-family: Montserrat;
+        }
         .card{
             border: 2px solid black;
             width:20%;
             background-color: white;
             border-radius: 5px;
-            padding: 50px;
+            padding: 40px;
             box-sizing: border-box;
             box-shadow: 4px 4px 10px 2px #00000032;
         }
@@ -21,17 +25,59 @@
             height: 100vh;
             align-items: center;
         }
+        .title{
+            text-align: center;
+            font-size: 25px;
+            font-family:Montserrat ;
+
+        }
+        .sub-title{
+            font-size: 20px;
+            margin: 0;
+            margin-bottom: 20px;
+            text-align: center ;
+        }
+        .text_input{
+            width:100%;
+            padding: 5px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid black;
+
+        }
+        .btn{
+            width: 100%;
+            padding:5px;
+            background-color: crimson;
+            color: white;
+            border-radius: 5px  ;
+            box-shadow: 1px 3px 3px 0px #1f1c1c;
+        }
+        .logo{
+            width: 100px;
+            margin:auto;
+            display: block;
+        }
+        .link{
+            font-size: 15px;
+            margin-bottom: 20px;
+            display: block;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
     <div class="card">
-        <h3 class="titte">Website Title</h3>
-        <h4 class="sub-title">Login Form</h4>
+        <img class="logo" src="https://w7.pngwing.com/pngs/127/497/png-transparent-note-with-pen-logo-computer-icons-form-register-button-miscellaneous-angle-text.png">
+        <h3 class="title">Digipodium</h3>
+        <h4 class="sub-title">Student Login</h4>
         <form >
             <label for="email">Email Address</label>
             <input type="text" id="email" class="text_input">
             <label for="password">Password</label>
             <input type="password" id="password" class="text_input">
+            <a href="#" class="link">Forgot Password?</a>
             <button type="submit" class="btn">Submit</button>
         </form>
 
