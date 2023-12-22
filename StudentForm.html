@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+</head>
+<body>
+    <h1>Student Admission Form</h1>
+    <form >
+        <label for="name">Full Name</label>
+        <input id="name" type="text" required>
+        <br><br>
+        <label for="email"> Email Address</label>
+        <input type="email"  id="email">
+        <br><br>
+        <button >Submit</button>
+        <br><br>
+        <label for="dob">Date Of Birth</label>
+        <input type="date" id="dob">
+        <br><br>
+        <label for="address">Address</label>
+        <br><br>
+        <textarea name="" id="address" cols="10" rows="5"></textarea>
+        <br><br>
+        <label for="city">Select City</label>
+        <select name="" id="city">
+            <option >Lucknow</option>
+            <option >Agra</option>
+            <option >Kanpur</option>
+            <option >Sultanpur</option>
+        </select>
+        <br><br>
+        <label for="board">Board Of Intermediate</label>
+        <input id="board" type="text" list="board_data">
+        <datalist id="board_data">
+            <option>UP Board</option>
+            <option>MP Board</option>
+            <option>ICSE Board</option>
+            <option>CBSE Board</option>
+        </datalist>
+        <br><br>
+        <label for="gender">Gender</label>
+        <input name="gender" type="radio">Male
+        <input name="gender" type="radio">Female
+        <br><br>
+        <input id="terms" type="checkbox">
+        <label for="subscribe" type="checkbox"></label>
+        <label for="subscribe">Subscribe Me To A NewsLetter</label>
+        <br><br>
+        <button type="submit">Submit</button>
+        <details>
+            <summary>View Terms And Condition</summary>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit odio veniam voluptates facilis? Eveniet, debitis id? Hic reprehenderit quasi itaque.</p>
+        </details>
+    </form>
+</body>
+</html>

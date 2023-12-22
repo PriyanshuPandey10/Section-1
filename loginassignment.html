@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        .block{
+            border:3px solid black ;
+            width:20%;
+            border-radius:5px ;
+            padding:50px;
+            box-sizing: border-box;
+            background-color: white;
+            box-shadow: 2px 2px 2px 2px #1d0c0c;
+        }   
+        .title{
+            color:#1d1dcc;
+
+        }
+        body{
+            background-image: url("fb.jpg");
+            display:flex;
+            justify-content:center;
+            height:100vh;
+            align-items:center;
+        }
+        .button{
+            text-align:center;
+            align-items: center;
+            margin-left: 60px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        <h1 class="title">Facebook</h1>
+        <form >
+            <label for="username">Username:</label>
+            <input type="text" id="udername" class="text_input">
+            <label for="password">Password:</label>
+            <input type="password" id="password" class="text_input">
+            <button type="submit" id="btn" class="button">Login</button>
+        </form>
+    </div>
+</body>
+</html>
