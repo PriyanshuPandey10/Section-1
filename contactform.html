@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .card{
+            /* border: 2px solid black; */
+            display:flex;
+            padding-left: 100px;
+            /* align-items: center;
+            justify-content: center; */
+            /* box-sizing: border-box; */
+            /* box-shadow: 4px 4px 10px 2px #00000032; */
+            border-radius: 5px;
+            margin:50px;
+            margin-left:180px;
+            gap: 100px;
+            
+        }
+        body{
+            /* display: flex; */
+            justify-content:center;
+            height: 100vh;
+            align-items: center;     
+            background:linear-gradient(#2323a0,YELLOW);
+            
+            
+        }
+        .right-card{
+            padding: 20px;
+            background-color: #00ffffd4;
+            width: 40%;
+            border-radius: 20px;
+            /* border: 2px solid black; */
+        }
+        .left-card{
+            padding: 30px;
+            background-color: #7fffd4;
+            border-radius: 20px;
+            /* border: 2px solid black; */
+            /* flex-basis: 60%; */
+        }
+        .title{ 
+            text-align: center;
+        }
+        .inner-block{
+            text-align: center;
+            font-size: 20px;    
+        }
+        .btn{
+            background-color: #3c3ca0;
+            color: white;
+            font-size: 15px;
+        }
+        .heading{
+            background-color: burlywood;
+            text-align:center;
+            height: 50px;
+            padding: 15px;
+        }
+    
+    
+        
+    </style>
+</head>
+<body>
+    <div class="heading"><h1><u>CONTACT PAGE</u></h1></div>
+    <div class="card">
+        <div class="left-card">
+            <h2 class="title"><u>Send Us Message</u></h2>
+            <br><br>
+            <div class="inner-block">
+                <label for="name">Name:</label>
+                <input type="text"required placeholder="Enter Your Name" >
+                <br><br>
+                <label for="email">Email ID:</label>
+                <input type="email"required placeholder="Enter Email">
+                <br><br>
+                <label for="number">Contact No:</label>
+                <input type="number"required placeholder="Enter Contact Number">
+                <br><br>
+                <label for="company">Company:</label>
+                <input type="text" required placeholder="Company Name">
+                <br><br>
+                <label for="address">Message:</label>
+                <textarea name="" id="address" cols="20" rows="3" placeholder="Write Your Message"></textarea>
+                <br><br>
+                <button class="btn">Send Message:</button>
+            </div>
+        </div>
+        <div class="right-card">
+            <h2 class="title"><u>About HCL</u></h2>
+            <br><br>
+            <p>The full form of HCL is Hindustan Computers Limited . HCL is a multinational IT company started in India. The company head office is located in Noida. HCL was established in 1976 as one of India’s original IT start-ups. It is a founder of modern computing with many creations, including the introduction of personal computers focused on an 8-bit microprocessor in 1978.
+
+                HCL Enterprise offers services in various sectors, including technology, talent management solutions and healthcare. It also consists of three companies
+                
+                HCL Infosystems
+                HCL Tech and
+                HCL Healthcare.
+                Operations of HCL
+                HCL Technologies operates in 54 countries, including the US, UK, Australia, Hong Kong, China, Japan, South Africa, Canada, Brazil, etc., with its headquarters in India in Noida (Uttar Pradesh).
+                
+                History Of HCL
+                In 1976 HCL infosystem was established.
+                The first three companies of parent HCL Group are HCL Technologies (R&D division of HCL), HCL Infosystems and HCL Healthcare.
+                The organization has tried to remain concentrated on hardware, but software and services are a primary focus via HCL Technologies.
+                HCL Technologies was established in 1999.
+                In 2011 HCL foundation and in 2014, HCL Healthcare was established.
+                In 2018, HCL Technologies acquired IBM software products, including BigFix, AppScan, etc. and became the fastest to touch the 1 billion product revenue.
+                Business lines of HCL
+                Some of the services provided by HCL are as follows:
+                
+                Enterprise Applications
+                Software as a Service (SaaS)
+                Applications Support and Maintenance
+                Finance and Accounting
+                Cybersecurity
+                Product Engineering
+                Data and Analytics
+                Cognitive Automation
+                Supply Chain Management
+                Operational Technologies
+                </p>
+
+
+        </div>
+    </div>
+</body>
+</html>
