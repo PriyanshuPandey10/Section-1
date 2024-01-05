@@ -1,4 +1,4 @@
-Prime number
+//Prime number
 const prime=(num) => {
     let c=0;
     for(let i=2;i<num;i++){
@@ -16,7 +16,7 @@ let n=prime(12);
 let s=prime(7)
 
 
-Reverse a number
+//Reverse a number
 const reverse=(num) => {
     s=0;
     for(let i=num;i!=0;i=Math.floor(i/10)){
@@ -30,7 +30,8 @@ const reverse=(num) => {
 reverse(12345);
 
 
-Palindrome Number
+//Palindrome Number
+
 const palindrome=(num) => {
     s=0;
     for(let i=num;i!=0;i=Math.floor(i/10)){
@@ -47,7 +48,7 @@ const palindrome=(num) => {
 palindrome(121);
 palindrome(2879);
 
-Display Fibonacci Series
+//Display Fibonacci Series
 function FibonacciSeries(n) {
     let f = [];
     let a = 0, b = 1;
@@ -64,7 +65,7 @@ let fibonacciSeries =FibonacciSeries(n);
 console.log(fibonacciSeries)
 
 
-Sum of first 50 numbers of Fibonacci Series
+//Sum of first 50 numbers of Fibonacci Series
 
 function calculateFibonacciSum(n) {
     let sum = 0;
