@@ -80,3 +80,5 @@ const d=smartphonelist.map((i)=>{return i.brand});
 console.log(d);
 const e=smartphonelist.map((i)=>{return i.price});
 console.log(e);
+const f=smartphonelist.map((i)=>{return i.brand+" "+i.model});
+console.log(f);
