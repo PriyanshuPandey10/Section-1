@@ -28,5 +28,5 @@ console.log(d);
 
 //filter all ids containing 'a' ['6fd6a987', '76btdb56', 'ka98so', '63va9o', '68sjh77h']
 const g= ['6fd6a987', '76btdb56', 'ka98so', '63va9o', '68sjh77h']
-const h=g.filter((i)=>{return i.includes('a') });
+const h=g.filter((i)=>{return i.includes('a')});
 console.log(h);
